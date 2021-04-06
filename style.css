@@ -1,0 +1,36 @@
+html,body{
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+header li{
+    list-style: none;
+}
+.header-top{
+    background: black;
+    color: white;
+}
+.header-middle h1{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.header-middle{
+    position: absolute;
+    background-color: rgb(0, 86, 128);
+    width: 100%;
+}
+.header-middle ul{
+    position: relative;
+    float: right;
+    top: -70px;
+    right: 150px;
+}
+.header-lower {
+    background: rgb(0, 86, 128);
+    margin: auto;
+    list-style: none;
+    position: relative;
+    display: inline;
+}
+.header-lower ul{
+    display: inline;
+}
